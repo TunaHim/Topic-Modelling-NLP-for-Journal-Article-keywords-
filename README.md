@@ -23,3 +23,14 @@ By employing these topic modelling techniques, the project aims to uncover hidde
 +	“How to perform topic modeling with Top2Vec” https://towardsdatascience.com/how-to-perform-topic-modeling-with-top2vec-1ae9bb4e89dc
 +	“CorEx Topic Model” https://ryanjgallagher.github.io/code/corex/overview
 +	https://medium.com/pew-research-center-decoded/overcoming-the-limitations-of-topic-models-with-a-semi-supervised-approach-b947374e0455
+
+## Data sources and access
+
+| Data | Source | Format |
+|---|---|---|
+| Title, date, abstract and keywords of 3,395 articles ("part of research topic", March 2023) | Frontiers (energy research articles), https://www.frontiersin.org/journals/energy-research | Scraped with BeautifulSoup; keywords stored as `data/keywords.pkl` |
+| Universal Sentence Encoder (for Top2Vec) | TensorFlow Hub | downloaded automatically |
+
+## Licence
+
+Code: MIT, see [LICENSE](LICENSE). Data: see *Data sources and access*; third-party data keep their own terms.
